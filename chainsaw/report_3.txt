@@ -1,0 +1,29 @@
+Summary of Analysis:
+!!ALERT!!
+Suspicious Entries Detected:
+1. EventID: 1337
+   UTC Time: 2023-10-10T16:02:47.0880233Z
+   ProcessID: 9488
+   EventData: Product Name: The Texas Chain Saw Massacre (1974) - Unusual product name for software installation
+   UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+
+2. EventID: 1001
+   UTC Time: 2023-10-10T15:57:13.8444904Z
+   ProcessID: 8232
+   EventData: OpenWith.exe - BEX64 error can be indicative of an exploited process
+   UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+
+3. EventID: 1042
+   UTC Time: 2023-10-10T15:56:53.6102981Z
+   ProcessID: 9788
+   EventData: Installation from Temp path and MSI with a non-descriptive name (target.msi)
+   UserID: S-1-5-18 (Local System)
+
+4. EventID: 1032
+   UTC Time: 2023-10-10T15:56:39.1933180Z
+   ProcessID: 9788
+   EventData: No data - Indicative of incomplete or potentially malicious MSI behavior
+   UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+
+End of Alert Report.
+-------------------------------

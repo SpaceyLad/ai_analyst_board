@@ -1,0 +1,54 @@
+Summary of Analysis:
+!!ALERT!! Suspicious entries detected:
+
+UTC: 2023-10-10T16:15:30.3339095Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: MSI installer operating under SYSTEM privileges to manipulate GoogleEarth-EC-x64.msi, likely an installation or update, but requires verification of legitimacy due to privileged account.
+
+UTC: 2023-10-10T16:15:20.4858837Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: SYSTEM privileges used to manipulate PaintDotNet_x64_5.0.10.msi, suggesting installation or update but need to verify given elevated privileges.
+
+UTC: 2023-10-10T16:14:20.6196479Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: SYSTEM account interacting with target.msi could indicate an authorized install or a potential system-level threat, need further review.
+
+UTC: 2023-10-10T16:07:55.5361984Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: Elevated SYSTEM privileges involved with DropboxUpdateHelper.msi, suggests update or install but requires additional confirmation of validity.
+
+UTC: 2023-10-10T16:07:07.8965653Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: SYSTEM-level access used on vc_red.msi, commonly associated with Visual C++ redistributable, potential red flag if not part of regular maintenance.
+
+UTC: 2023-10-10T16:06:54.2112182Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: MSI Installer engaged by SYSTEM account for evernote.msi, unless this installation is part of a known deployment, this should be scrutinized.
+
+UTC: 2023-10-10T16:04:57.5035743Z
+ProcessID: 8616
+EventID: 1042
+Task: 0
+UserID: S-1-5-18
+Entry: SYSTEM account executing target.msi which corresponds to Zoom, advisable to validate the source and reason for installation.
+
+Please cross-reference the legitimacy of these software installations with the system administrators or intended software management schedules. Further investigation is recommended to rule out any potential unauthorized activity.
+-------------------------------

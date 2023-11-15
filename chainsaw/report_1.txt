@@ -1,0 +1,16 @@
+Summary of Analysis:
+!!ALERT!!
+UTC: 2023-10-10T16:36:59.3820569Z
+ProcessID: 2496
+EventID: 86
+Task: None identified
+UserID: S-1-5-18 (Local System)
+Suspicious Entry: Certificate authority not found error for "vmw-keyid-95c620c9c4dcb2c43b4e1e5d851a0c9003035703.microsoftaik.azure.net".
+
+UTC: 2023-10-10T16:36:58.6538756Z
+ProcessID: 2496
+EventID: 86
+Task: None identified
+UserID: S-1-5-18 (Local System)
+Suspicious Entry: Certificate authority not found error for "vmw-keyid-95c620c9c4dcb2c43b4e1e5d851a0c9003035703.microsoftaik.azure.net".
+-------------------------------

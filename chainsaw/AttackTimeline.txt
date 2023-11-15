@@ -1,0 +1,109 @@
+**Timeline of Potential Attacks:**
+
+**2023-10-10**
+
+- 15:56:39 UTC
+  - ProcessID: 9788
+  - EventID: 1032
+  - UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+  - Comment: No data in event - indicative of potentially malicious MSI behavior.
+
+- 15:56:53 UTC
+  - ProcessID: 9788
+  - EventID: 1042
+  - UserID: S-1-5-18 (Local System)
+  - Comment: MSI installation from Temp path with non-descriptive name (target.msi).
+
+- 15:57:13 UTC
+  - ProcessID: 8232
+  - EventID: 1001
+  - UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+  - Comment: OpenWith.exe - BEX64 error, possible exploited process.
+
+- 16:02:47 UTC
+  - ProcessID: 9488
+  - EventID: 1337
+  - UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+  - Comment: Strange product name for a software installation - "The Texas Chain Saw Massacre (1974)."
+
+- 16:04:57 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: SYSTEM account executing target.msi for Zoom installation.
+
+- 16:06:54 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: SYSTEM account installing evernote.msi - needs scrutiny.
+
+- 16:07:07 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: SYSTEM-level access for vc_red.msi - possibly suspicious.
+
+- 16:07:55 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: Elevated SYSTEM privileges with DropboxUpdateHelper.msi.
+
+- 16:14:20 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: SYSTEM account interacting with unspecified target.msi.
+
+- 16:15:20 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: SYSTEM privileges used for PaintDotNet_x64_5.0.10.msi manipulation.
+
+- 16:15:30 UTC
+  - ProcessID: 8616
+  - EventID: 1042
+  - UserID: S-1-5-18
+  - Comment: SYSTEM privileges for GoogleEarth-EC-x64.msi - legit or not?
+
+- 16:36:58 UTC
+  - ProcessID: 2496
+  - EventID: 86
+  - UserID: S-1-5-18 (Local System)
+  - Comment: Certificate authority error for "vmw-keyid" domain - suspicious entry.
+
+- 16:36:59 UTC
+  - ProcessID: 2496
+  - EventID: 86
+  - UserID: S-1-5-18 (Local System)
+  - Comment: Same as previous, certificate authority error for "vmw-keyid" domain.
+
+**Keyword List for Suspicious/Malicious Log Analysis:**
+
+- Certificate authority error
+- vmw-keyid
+- microsoftaik.azure.net
+- SYSTEM privileges
+- MSI installer
+- GoogleEarth-EC-x64.msi
+- PaintDotNet_x64_5.0.10.msi
+- DropboxUpdateHelper.msi
+- vc_red.msi
+- evernote.msi
+- target.msi
+- Zoom
+- Installation
+- Temp path
+- OpenWith.exe
+- BEX64 error
+- The Texas Chain Saw Massacre
+- UserID: S-1-5-18
+- UserID: S-1-5-21-965304421-3110171530-1119801072-1001
+- EventID: 86
+- EventID: 1042
+- EventID: 1001
+- EventID: 1032
+- EventID: 1337
+- ProcessID
